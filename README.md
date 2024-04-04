@@ -26,8 +26,7 @@ client = SpotifyClient(client_id='your_client_id', client_secret='your_client_se
 track_info = client.get_track('track_id_here')
 print(track_info)
 ```
-## 
-Note
+## Note
 This package does not require any third-party dependencies.
 Due to the dynamic nature of the Spotify API and its vast capabilities, this wrapper focuses on a simple task (fetching track information). Users may extend it as needed for additional functionalities.
 ```sql
